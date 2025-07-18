@@ -1,29 +1,29 @@
-# 🏃‍♂️ Activities Overview Dashboard
+# 🏃‍♂️ Garmin Activity Analytics Dashboard
 
 ## 📌 Description
 
-This Power BI dashboard provides a comprehensive overview of a user's physical activities, based on data exported from Garmin or similar fitness tracking platforms. It visualizes key metrics and trends using clear and interactive visuals to help monitor personal performance over time.
+This Power BI dashboard provides a comprehensive overview of my real physical activity data, extracted via API from the [tcgoetz/GarminDB](https://github.com/tcgoetz/GarminDB) project using a custom Python script.
+
+The dashboard visualizes key performance metrics and trends, helping to monitor progress across different types of training sessions such as running, swimming, strength workouts, and more.
 
 ### Key Features:
 - Total number of activities over the selected period
-- Aggregated distance and duration
-- Activity breakdown by type (e.g., running, swimming, strength training)
-- Weekly or monthly trends in performance
-- Heatmaps and activity comparisons across days/weeks/months
+- Aggregated statistics (duration, distance, etc.)
+- Activity breakdown by type
+- Weekly or monthly performance trends
+- Heatmaps and time comparisons by day, week, or month
 
 ---
 
 ## 🎯 Purpose
 
-This dashboard is suitable for:
+This dashboard is designed for:
 
-- **Personal training analytics**: Track progress and patterns in physical activity.
-- **Motivation and feedback**: Visualize how often and how intensely you're training.
-- **Trainer or physiotherapist use**: Share data-driven insights with health or fitness professionals.
-- **Data analytics portfolio**: Demonstrates skills in handling time series data, KPI tracking, and category-based segmentation.
+- **Personal performance tracking**: Visual insights into training consistency and progression.
+- **Motivation and behavior feedback**: Spot patterns and stay committed to your goals.
+- **Coach or physiotherapist collaboration**: Share structured data with professionals for better support.
+- **Analytics portfolio**: Demonstrates practical experience in connecting APIs, transforming data with Python, and designing interactive Power BI dashboards.
 
 ---
 
-💡 _This dashboard is based on fictional data and was created as part of a Power BI course on Udemy._
-
-
+💡 _This project uses real fitness data pulled directly from Garmin through a local instance of the GarminDB API integration._
